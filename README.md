@@ -1,44 +1,24 @@
-"## ?? Objectifs du TP" 
-"- Impl‚menter plusieurs architectures RAG" 
-"- Tester et comparer leurs performances" 
-"- Analyser leurs limites et avantages" 
-"- Travailler dans un contexte applicatif r‚el" 
-"" 
-"## ??? Architectures impl‚ment‚es" 
-"" 
-"1. **LLM sans RAG** (baseline)" 
-"2. **RAG Classique/Na‹f**" 
-"3. **RAG avec Re-ranking**" 
-"4. **RAG Hybride** (dense + sparse)" 
-"5. **Multi-hop RAG**" 
-"6. **Graph RAG**" 
-"7. **Agentic RAG**" 
-"" 
-"## ?? Fonctionnalit‚s cl‚s" 
-"- ? Visualisation des embeddings (t-SNE)" 
-"- ? Interface Gradio" 
-"- ? Int‚gration FAISS optimis‚" 
-"- ? M‚triques d'‚valuation (vu en cours)" 
-"" 
-"## ?? Pr‚requis" 
-'```bash' 
-"pip install faiss-cpu sentence-transformers numpy scikit-learn transformers gradio" 
-'```' 
-"" 
-"## ?? R‚sultats" 
-"" 
-"| Architecture | Score | Robustesse | Hallucinations |" 
-"|-------------|-------|------------|----------------|" 
-"| Baseline | - | - | - |" 
-"| RAG Classique | - | - | - |" 
-"| RAG + Re-ranking | - | - | - |" 
-"| RAG Hybride | - | - | - |" 
-"| Multi-hop RAG | - | - | - |" 
-"| Graph RAG | - | - | - |" 
-"| Agentic RAG | - | - | - |" 
-"" 
-"## ?? Livrables" 
-"- [x] Notebook Jupyter (devoir3_final.ipynb)" 
-"- [x] Code fonctionnel pour chaque architecture" 
-"- [x] Tableau comparatif des r‚sultats" 
-"- [x] Analyse critique finale" 
+# ImplÃ©mentation et comparaison des architectures RAG
+
+**Auteur : Ayoub Bourti**
+
+## Architectures implÃ©mentÃ©es
+- LLM sans RAG (baseline)
+- RAG Classique/NaÃ¯f
+- RAG avec Re-ranking
+- RAG Hybride
+- Multi-hop RAG
+- Graph RAG
+- Agentic RAG
+
+## FonctionnalitÃ©s
+- Visualisation des embeddings (t-SNE)
+- Interface Gradio
+- IntÃ©gration FAISS optimisÃ©
+- MÃ©triques d'Ã©valuation
+
+## Livrables
+- âœ… Notebook Jupyter (devoir3_final.ipynb)
+- âœ… Code fonctionnel pour chaque architecture
+- âœ… Tableau comparatif des rÃ©sultats
+- âœ… Analyse critique finale
